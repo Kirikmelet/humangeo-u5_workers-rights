@@ -1,0 +1,24 @@
+{
+  "name": "unit5_summative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirikmelet/humangeo-u5_workers-rights.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirikmelet/humangeo-u5_workers-rights/issues"
+  },
+  "homepage": "https://github.com/Kirikmelet/humangeo-u5_workers-rights#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
