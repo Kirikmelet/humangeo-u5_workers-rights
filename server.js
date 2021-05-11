@@ -8,4 +8,8 @@ app.on('/', (res, _req) => {
 
 app.use(express.static(path.join(__dirname)))
 
-app.listen(5438, () => {})
+app.listen(5438, () => {
+  console.warn('Server port: 5438\nLink: http://127.0.0.1:5438')
+  console.warn('Please lookup your private IP for LAN')
+  console.warn('There is no SSL either (no https)')
+})

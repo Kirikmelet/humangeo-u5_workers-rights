@@ -21,6 +21,10 @@ button {
     border: none;
 }
 
+a {
+    color: var(--text);
+}
+
 #href-button {
     cursor: pointer;
 }
@@ -37,6 +41,8 @@ button {
     flex-direction: row;
     justify-content: space-around;
     padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nav-bar.titlecard {
@@ -61,9 +67,6 @@ button {
     margin: auto;
 }
 
-.nav-bar a {
-    color: var(--text);
-}
 
 div.preface-card {
     display: block;
@@ -80,6 +83,7 @@ div.preface-card {
 .preface-card.image {
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 .preface-card.link {
     display: flex;
@@ -95,7 +99,7 @@ div.preface-card {
 }
 
 .preface-card p {
-    text-align: left;
+    text-align: center;
     padding: 5px;
     font-size: 1.25em;
 }
@@ -119,7 +123,10 @@ div.preface-card {
     font-size: 1.25em;
 }
 
-
+p.trivia {
+    font-size: 0.75em;
+    text-align: left;
+}
 
 
 /* Mobile go below */
@@ -130,7 +137,7 @@ div.preface-card {
     .preface-card img {
         float: none;
     }
-    .preface-card p {
+    .preface-card.image p {
         text-align: center;
     }
     .preface-card.alt p {

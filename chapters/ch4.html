@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy's Unit5 Summative CH4</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/button.js" defer></script>
+    <script src="../js/auto-link.js"></script>
+    <script src="../js/auto-list.js"></script>
+    <script>
+      const sourceList = [
+        "https://en.wikipedia.org/wiki/Labor_history_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "https://en.wikipedia.org/wiki/National_Labor_Relations_Act_of_1935",
+        "https://en.wikipedia.org/wiki/New_Deal",
+        "https://en.wikipedia.org/wiki/National_Labor_Relations_Act_of_1935",
+        "https://en.wikipedia.org/wiki/Emergency_Relief_Appropriation_Act_of_1935",
+        "https://en.wikipedia.org/wiki/Second_Bill_of_Rights",
+        "https://en.wikipedia.org/wiki/United_States_labor_law#History",
+        "https://en.wikipedia.org/wiki/Labor_rights",
+        "https://en.wikipedia.org/wiki/Trade_union",
+        "https://www.bls.gov/spotlight/2016/union-membership-in-the-united-states/pdf/union-membership-in-the-united-states.pdf",
+        "https://www.vox.com/identities/2019/9/30/20891314/elon-musk-tesla-labor-violation-nlrb",
+        "https://www.cnbc.com/2021/03/25/tesla-elon-musk-anti-union-tweet-must-be-deleted-nlrb.html",
+        "https://www.npr.org/2021/01/08/954710407/at-google-hundreds-of-workers-formed-a-labor-union-why-to-protect-ourselves",
+        "https://www.pbs.org/newshour/economy/google-workers-form-new-labor-union-a-rarity-in-tech",
+        "https://www.cbsnews.com/news/amazon-union-vote-illegal-interference-claims/",
+        "https://www.cnbc.com/2020/10/24/how-amazon-prevents-unions-by-surveilling-employee-activism.html"
+      ]
+      const dealList = [
+        'Minimum Wage',
+        'Guranteed Federal Empolyment',
+        'Farmer\'s subsidies',
+        'Decreasing Corporate Abuses',
+        'Empowered Labor Unions',
+        'Starting the National Recovery Administration',
+        'Passing the National Labor Relations Act of 1935 (Replaces the above)',
+        'Established the Works Progress Administration'
+      ]
+    </script>
+  </head>
+  <body class="html-bg">
+    <header>
+      <div class="nav-bar">
+        <div class="nav-bar titlecard">
+          <h1 data-href="../index.html" id="href-button">Workers Unite!</h1>
+          <p>Troy's Human Geography Project for Unit 5</p>
+        </div>
+        <!-- Chapter entries go below  -->
+        <button data-href="./ch1.html" id="href-button">Chapter 1</button>
+        <button data-href="./ch2.html" id="href-button">Chapter 2</button>
+        <button data-href="./ch3.html" id="href-button">Chapter 3</button>
+        <button data-href="./ch4.html" id="href-button">Chapter 4</button>
+        <button data-href="./ch5.html" id="href-button">Chapter 5</button>
+      </div>
+    </header>
+    <main>
+      <div class="preface-card">
+        <h2>Legacy of the Historical Labor Movement</h2>
+        <p>
+          With all the gains of the historical labor movement, we should take a step back
+          and see where the old movements and laws went.
+        </p>
+      </div>
+      <div class="3d-model">
+        Place holder here!
+      </div>
+      <div class="preface-card" id="list-div">
+        <h2>The New Deal</h2>
+        <p>
+          The New Deal enacted by President Franklin Delanor Roosevelt was an important law that brought
+          many labor reforms and helped end the Great Depression. It brought with it many things we now consider
+          expected in American society. <br>Such as:
+        </p>
+        <ul id="newDealProgs">
+        </ul>
+        <p>
+          While some in the list aren't directly connected to worker's rights, they do however reinforce the status and rights
+          workers have in society. New Deal-style policies had persisted until Reagan's Presidency, whom started to re-privatize
+          and lifted regulations designed to benifit common people. Under Reagan, the Professional Air Traffic Controls Organization
+          went on a strike, but because it forbade Federal Law, was promptly shut down, and sparked the beginning of the decline
+          in union membership.
+        </p>
+      </div>
+      <div class="preface-card">
+        <h2>Where The Unions Be?</h2>
+        <p>
+          During the Cold War, most left-wing unions faded into obscurity,
+          however some do still exist today. Moderate unions like the AFL-CIO
+          still exist and are still kicking today. However, anti-communism
+          and "Right To Work Laws" have diminished the power and recruitment of unions.
+          Membership of unions have decreased from 20% of all worker's in 1983 to around 13%.
+          While public-sector union membership increased, private sector unions
+          decreased quickly. Large companies like Amazon, Tesla, Google, discourage
+          union drives and regularly intimidate and post anti-union propaganda.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="preface-card" id="sources-div">
+        <h2>Sources</h2>
+        <p>I used the Wikipedia for this because no time</p>
+      </div>
+    </footer>
+  </body>
+  <script>
+    autoLink('sources-div', sourceList) /* Copy Pasting is cringe */
+    autoList('newDealProgs', dealList)
+  </script>
+</html>
