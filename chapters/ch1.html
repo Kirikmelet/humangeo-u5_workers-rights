@@ -52,8 +52,8 @@
           struggle. But that doesn't mean they haven't done good for us.
         </p>
       </div>
-      <div class="3d-model">
-        Place holder here!
+      <div class="model">
+        <canvas id="threeJs"></canvas>
       </div>
       <div class="preface-card">
         <h2>A Long and Proud History</h2>
@@ -161,6 +161,11 @@
   </body>
   <script>
     autoLink('sources-div', sourceList) /* Copy Pasting is cringe */
+    globalThis.three = {
+      path: '../models/factory.glb',
+      domID: 'threeJs'
+    }
   </script>
+  <script src="../index.js"></script>
 </html>
 

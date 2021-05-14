@@ -56,8 +56,8 @@
           active in the community, and <b>Join a Union!</b>
         </p>
       </div>
-      <div class="3d-model">
-        Place holder here!
+      <div class="model">
+        <canvas id="threeJs"></canvas>
       </div>
       <div class="preface-card">
         <h2>A Summary of the Project</h2>
@@ -84,5 +84,10 @@
   </body>
   <script>
     autoLink('sources-div', sourceList) /* Copy Pasting is cringe */
+    globalThis.three = {
+      path: '../models/modern.glb',
+      domID: 'threeJs'
+    }
   </script>
+  <script src="../index.js"></script>
 </html>

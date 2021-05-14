@@ -50,8 +50,8 @@
           In this chapter, I will focus on the United States and it's bloody history.
         </p>
       </div>
-      <div class="3d-model">
-        Place holder here!
+      <div class="model">
+        <canvas id="threeJs"></canvas>
       </div>
       <div class="preface-card">
         <h2>A Chicago Headline!</h2>
@@ -250,5 +250,10 @@
   </body>
   <script>
     autoLink('sources-div', sourceList) /* Copy Pasting is cringe */
+    globalThis.three = {
+      path: '../models/war.glb',
+      domID: 'threeJs'
+    }
   </script>
+  <script src="../index.js"></script>
 </html>

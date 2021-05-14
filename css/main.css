@@ -128,6 +128,21 @@ p.trivia {
     text-align: left;
 }
 
+div.model {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 60%;
+}
+
+.model canvas {
+    width: 80%;
+    height: 10%;
+    display: inline-block;
+}
+
+
 
 /* Mobile go below */
 @media only screen and (max-width: 1400px) {
