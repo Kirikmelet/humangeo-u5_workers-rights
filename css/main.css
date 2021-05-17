@@ -151,12 +151,22 @@ div.model {
     }
     .preface-card img {
         float: none;
+        max-width: 100%;
+        max-height: initial;
     }
     .preface-card.image p {
         text-align: center;
     }
     .preface-card.alt p {
         text-align: center;
+    }
+    .nav-bar.titlecard p {
+        font-size: 0.9em;
+    }
+    .nav-bar > button {
+        width: 25%;
+        font-size: 0.9em;
+        padding: 2.5%;
     }
 }
 
